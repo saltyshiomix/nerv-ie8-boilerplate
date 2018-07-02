@@ -40,6 +40,10 @@ export default class App extends React.Component {
 }
 ```
 
+## Demo
+
+[This repo's GitHub Pages](https://saltyshiomix.github.io/nerv-ie8-boilerplate)
+
 ## How it works
 
 ### Transpile to ES3
