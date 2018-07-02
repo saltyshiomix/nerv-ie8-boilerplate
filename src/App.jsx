@@ -6,6 +6,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h1>Hello {this.props.name}!</h1>
+        <a href="https://github.com/saltyshiomix/nerv-ie8-boilerplate">GitHub</a>
         <hr />
         <Feature />
       </div>
