@@ -66,7 +66,7 @@ Transpile ES5 (or above) codes to ES3 ones, so legacy browsers like IE8 can hand
 
 ### Polyfill for Internet Explorer 8 (or below)
 
-But on IE8, we need shim some polyfills like `Object.defineProperty()`.
+But on IE8, we need some polyfills like `Object.defineProperty()`.
 
 **index.html**
 
