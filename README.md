@@ -1,2 +1,5 @@
-# nerv-ie8-boilerplate
-Minimal configuration of NervJS with IE8+ compatibility :fire:
+# NervJS IE8+ Boilerplate
+
+- Minimal Configuration
+- Work on IE8+
+- Identical API with React 16
