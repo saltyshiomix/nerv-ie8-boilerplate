@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "nerv-ie8-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A minimalistic boilerplate of NervJS with IE8+ and React 16 compatibility <3",
   "repository": "git@github.com:saltyshiomix/nerv-ie8-boilerplate.git",
   "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
