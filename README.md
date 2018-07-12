@@ -50,16 +50,30 @@ export default class App extends React.Component {
 
 Transpile ES5 (or above) codes to ES3 ones, so legacy browsers like IE8 can handle them.
 
+**npm**
+
+```bash
+# need to transpile to ES3
+$ yarn add --dev @babel/core @babel/preset-env @babel/plugin-transform-property-literals @babel/plugin-transform-member-expression-literals
+
+# need to handle React
+$ yarn add --dev @babel/preset-react
+```
+
 **.babelrc**
 
 ```json
 {
   "presets": [
-    ["env", {
+    ["@babel/env", {
       "spec": true,
       "useBuiltIns": false
     }],
-    ["es3"]
+    "@babel/react"
+  ],
+  "plugins": [
+    "@babel/transform-member-expression-literals",
+    "@babel/transform-property-literals"
   ]
 }
 ```
