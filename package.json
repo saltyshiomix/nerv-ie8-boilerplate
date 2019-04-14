@@ -21,7 +21,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-module-resolver": "^3.2.0",
     "rimraf": "^2.6.3",
-    "webpack": "^4.14.0",
-    "webpack-cli": "^3.0.8"
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
   }
 }
