@@ -12,7 +12,7 @@ export default class App extends React.Component {
         <h2>Others</h2>
         <ul>
           <li>Webpack 4</li>
-          <li>Babel</li>
+          <li>Babel 7</li>
         </ul>
       </div>
     );
