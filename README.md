@@ -167,6 +167,9 @@ $ git clone https://github.com/saltyshiomix/nerv-ie8-boilerplate
 $ cd nerv-ie8-boilerplate
 $ yarn
 $ yarn build
+
+# open with your default browser
+$ yarn start
 ```
 
 Finally, open `index.html` on your Internet Explorer 8 or modern browsers.
