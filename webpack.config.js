@@ -1,27 +1,27 @@
-const { resolve } = require('path')
+const { resolve } = require('path');
 
 module.exports = {
   mode: 'development',
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
   },
   output: {
     filename: '[name].js',
-    path: resolve('dist')
+    path: resolve('dist'),
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
     alias: {
       'react': 'nervjs',
-      'react-dom': 'nervjs'
-    }
+      'react-dom': 'nervjs',
+    },
   },
   module: {
     rules: [
       {
         test: /\.jsx?$/,
-        use: 'babel-loader'
-      }
-    ]
-  }
-}
+        use: 'babel-loader',
+      },
+    ],
+  },
+};

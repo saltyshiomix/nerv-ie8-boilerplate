@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default class App extends React.Component {
   render() {
@@ -15,6 +15,6 @@ export default class App extends React.Component {
           <li>Babel</li>
         </ul>
       </div>
-    )
+    );
   }
 }
