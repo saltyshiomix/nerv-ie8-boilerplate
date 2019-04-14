@@ -1,5 +1,5 @@
-import React from 'react'
-import Feature from './Feature'
+import React from 'react';
+import Feature from './Feature';
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +10,6 @@ export default class App extends React.Component {
         <hr />
         <Feature />
       </div>
-    )
+    );
   }
 }
