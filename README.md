@@ -1,4 +1,14 @@
-# NervJS IE8+ Boilerplate
+<p align="center">NervJS IE8+ Boilerplate</p>
+<p align="center">
+  <a href="https://david-dm.org/saltyshiomix/nerv-ie8-boilerplate">
+    <img src="https://david-dm.org/saltyshiomix/nerv-ie8-boilerplate.svg">
+  </a>
+  <a href="https://david-dm.org/saltyshiomix/nerv-ie8-boilerplate?type=dev">
+    <img src="https://david-dm.org/saltyshiomix/nerv-ie8-boilerplate/dev-status.svg">
+  </a>
+</p>
+
+## About NervJS IE8+ Boilerplate
 
 - Minimal Configuration
 - Work on IE8+ and other modern browsers
@@ -18,24 +28,24 @@ Anyone can imagine that the code below does work on IE8?
 **src/index.js** (webpack entry point)
 
 ```js
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
 ReactDOM.render(
   <App name="NervJS" />,
-  document.getElementById('app')
-)
+  document.getElementById('app'),
+);
 ```
 
 **src/App.jsx**
 
 ```jsx
-import React from 'react'
+import React from 'react';
 
 export default class App extends React.Component {
   render() {
-    return <div>Hello {this.props.name}!</div>
+    return <div>Hello {this.props.name}!</div>;
   }
 }
 ```
@@ -109,10 +119,10 @@ module.exports = {
   resolve: {
     alias: {
       'react': 'nervjs',
-      'react-dom': 'nervjs'
-    }
-  }
-}
+      'react-dom': 'nervjs',
+    },
+  },
+};
 ```
 
 #### Babel Alias
@@ -125,11 +135,11 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?$/,
-        use: 'babel-loader'
-      }
-    ]
-  }
-}
+        use: 'babel-loader',
+      },
+    ],
+  },
+};
 ```
 
 **.babelrc**
